@@ -1,0 +1,46 @@
+
+/* HTML ELEMENTS */
+
+body {
+    background-color: rgb(73, 88, 99);
+}
+
+h1 {
+    margin: 3rem auto;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* SQUARES */
+
+.square {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1.5rem;
+    border: 7px solid;
+    margin: 3rem auto;
+}
+
+.sq-green {
+    background-color: green;
+    margin-right: 5%;
+}
+
+.sq-red {
+    background-color: red;
+    margin-right: 5%;
+}
+
+.sq-yellow {
+    background-color: yellow;
+    margin-left: 5%;
+}
+
+.sq-blue {
+    background-color: blue;
+    margin-left: 5%;
+}
+
