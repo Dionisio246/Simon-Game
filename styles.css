@@ -16,31 +16,50 @@ h1 {
 
 /* SQUARES */
 
+
+.container {
+    text-align: center;
+    width: 50%;
+    position: relative;
+}
+
+.row {
+    text-align: center;
+}
+
 .square {
     height: 15rem;
     width: 15rem;
     border-radius: 1.5rem;
     border: 7px solid;
-    margin: 3rem auto;
+    margin: 2rem;
+    display: inline-block;
+}
+
+.square-highlight {
+    opacity: 1;
+    animation: fade 0.55s linear;
 }
 
 .sq-green {
     background-color: green;
-    margin-right: 5%;
 }
 
 .sq-red {
     background-color: red;
-    margin-right: 5%;
 }
 
 .sq-yellow {
     background-color: yellow;
-    margin-left: 5%;
 }
 
 .sq-blue {
     background-color: blue;
-    margin-left: 5%;
 }
 
+
+/* MEDIA QUERY */
+@keyframes fade {
+    0% { opacity: 0.2 }
+    50% { opacity: 1 }
+  }
